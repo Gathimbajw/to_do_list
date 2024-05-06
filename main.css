@@ -1,0 +1,119 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+/* Styling for the entire body */
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+    font-family: 'Gochi Hand', cursive;
+}
+
+/* Media query for screens wider than 500px */
+@media only screen and (min-width: 500px) {
+    body {
+        min-height: 100vh;
+    }
+}
+/* Styling for the image */
+.heading__img {
+    max-width: 24%;
+    height: 50;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Styling for container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: radial-gradient(circle, #e2e2e2, #fff);
+}
+
+/* Styling for heading */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Styling for heading title */
+.heading__title {
+    transform: rotate(-5deg);
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+/* Styling for form label */
+.form__label {
+    margin-bottom: 10px;
+}
+
+/* Styling for form input */
+.form__input {
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Media query for screens wider than 500px */
+@media only screen and (min-width: 500px) {
+    .form__input {
+        width: 80%;
+    }
+}
+
+/* Styling for button */
+.button {
+    padding: 10px 20px;
+    transform: rotate(3deg);
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom right, #4CAF50, #228B22);
+}
+
+/* Styling for button text */
+.button span {
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Styling for button when active or focused */
+.button:active, 
+.button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Styling for to-do list */
+.toDoList {
+    text-align: left;
+}
+
+/* Styling for list items in to-do list */
+.toDoList li {
+    padding: 5px 0;
+}
+
+/* Styling for list item when hovered */
+.toDoList li:hover {
+    text-decoration: line-through wavy;
+    color: #999;
+}
